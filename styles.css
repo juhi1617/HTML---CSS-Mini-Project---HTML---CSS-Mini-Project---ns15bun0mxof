@@ -1,1 +1,72 @@
+body, html{
+     height: 100%;
+     margin: 0;
+     font-size: 18px;
+     font-family:"lato" sans-serif;
+     font-weight:400;
+     line-height: 1.8em;
+     color: rgb(212, 207, 207);
 
+}
+
+.pic1,.pic2,.pic3{
+    position: relative;
+    opacity: 0.70;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+
+}
+
+.pic1{
+    background-image: url(main.jpg);
+    min-height: 100%;
+}
+
+.pic2{
+    background-image: url(blur.jpg);
+    min-height: 100%;
+}
+
+.pic3{
+    background-image: url(buildings.jpg);
+    min-height: 100%;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: rgb(216, 240, 232);
+    color: rgb(133, 135, 137);
+}
+
+.section-dark{
+    background-color: #2d3134;
+    color:rgb(102, 95, 95) ;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text .border{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+
+}
+
+.text .border .trans{
+    background-color: transparent;
+}
